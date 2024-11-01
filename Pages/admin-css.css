@@ -1,0 +1,96 @@
+	.drag-sofb{cursor: pointer;}
+.action-btns-sofb {
+    padding: 4px;
+    background-color: black;
+    color: white;
+    margin-right: 5px;
+    cursor: pointer;
+    display: inline-block;
+    width: 30px;
+}
+
+.action-btns-sofb:hover{
+    transition: 0.2s;
+    transform: scale(1.2);
+}
+
+.kzr-update{background-color: orange!important;border: 1px solid orange!important;color: white;}
+
+.action-btns-sofb[title="Delete"]{background-color: red;}
+.action-btns-sofb[title="Edit"]{background-color: orange;}
+
+		.sofb-property-table{text-align: center;}
+		.sofb-property-table td{padding: 8px;}
+	.sofb-property-table thead{background-color: #3f51b5;color: white;}
+
+.sofb-property-table tbody tr:nth-child(odd) {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+[title]{cursor: pointer;}
+.status_sofb{color: red;}
+
+textarea {
+    height: 90px;
+    width: 300px;
+}
+
+.sofb-property-table select{max-width: 300px!important;}
+
+
+/*--------------------------------------------------------------*/
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+a.sofb-pro-btn{
+        text-decoration: none;
+        padding: 12px;
+        background-color: red;
+        border: 1px solid white;
+        color: white;
+        display: block;
+        width: 150px;
+    }
+
+    a.sofb-pro-btn:hover{transform: scale(1.2);transition: 0.2s;}
+
